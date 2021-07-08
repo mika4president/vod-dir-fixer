@@ -50,7 +50,7 @@ for i in *.m*;      do
         echo -e $COL_GREEN "Creating folder..." $COL_RESET
         
         #Import movie poster
-        POSTERFILE=$v2".JPG"
+        POSTERFILE=$v2".jpg"
         if test -f "$POSTERFILE"; then
             mv $POSTERFILE $DIR/;
             echo -e $COL_GREEN "Importing movie poster." $COL_RESET
